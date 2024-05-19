@@ -246,26 +246,28 @@
   text-align: left;
   font-size: var(--font-size-xl);
 }
-.btn-text {
+.btn-text{
   position: relative;
   letter-spacing: 0.2px;
   line-height: 28px;
+  font-family: var(--font-cagliostro);
 }
 .buttonbtnprimary-color,
-.div {
+.div{
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
 }
-.buttonbtnprimary-color {
+.buttonbtnprimary-color{
   align-self: stretch;
   border-radius: var(--br-8xs);
   background-color: #be6822;
   padding: var(--padding-mini) var(--padding-21xl);
   font-size: var(--font-size-5xl);
   color: var(--light-text-color);
+  border-color: #be6822;
 }
 .div {
   position: absolute;
